@@ -1,0 +1,85 @@
+
+/*Header*/
+
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 69px;
+  align-items: center;
+  z-index: 1;
+  border-bottom: 1px solid white;
+  position: fixed;
+  background-color: black;
+}
+.logo img{
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+}
+
+header nav {
+  padding-right: 40px;
+}
+
+
+/*Teas*/
+
+img{
+  height: 200px;
+  width: 300px;
+}
+
+/*Mission*/
+
+.missiontext{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-size: cover;
+  height: 700px;
+  width: 1200px;
+  margin: 50px auto;
+}
+
+.missiontext h2,h4{
+  background-color: black;
+}
+
+/*Locations*/
+
+#location{
+  display: flex;
+  border: 1px solid white;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  justify-content: space-around;
+}
+
+.Oakdale,
+.Downtown,
+.EastBayside {
+  background-color: black;
+  display: inline-block;
+}
